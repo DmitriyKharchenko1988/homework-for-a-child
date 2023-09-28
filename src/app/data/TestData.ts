@@ -1,5 +1,6 @@
 import {Category} from "../model/Category";
 import {Priority} from "../model/Priority";
+import { Task } from "../model/Task";
 
 export class TestData {
 
@@ -19,12 +20,13 @@ export class TestData {
         {id: 4, title: 'Срочный!!', color: '#f1128d'},
     ];
 
+    // @ts-ignore
     static tasks: Task[] = [
         {
           id: 1,
             title: 'Полить цветы',
             priority: TestData.priorities[1],
-            completed: false,
+            completed: true,
             category: TestData.categories[0],
             date: new Date('2023-09-30')
         },
