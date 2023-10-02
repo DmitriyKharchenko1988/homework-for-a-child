@@ -57,6 +57,56 @@ export class TestData {
             category: TestData.categories[0],
             date: new Date('2023-09-30')
         },
+
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
+
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 1,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2023-09-30')
+        },
     ]
 
 }
