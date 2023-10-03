@@ -32,8 +32,8 @@ export class TestData {
         },
 
         {
-          id: 1,
-            title: 'Полить цветы',
+          id: 2,
+            title: 'djvsnm kfnjr',
             priority: TestData.priorities[1],
             completed: false,
             category: TestData.categories[0],
@@ -80,7 +80,23 @@ export class TestData {
             title: 'Полить цветы',
             priority: TestData.priorities[1],
             completed: false,
-            category: TestData.categories[0],
+            category: TestData.categories[2],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 7,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[2],
+            date: new Date('2023-09-30')
+        },
+        {
+          id: 5,
+            title: 'Полить цветы',
+            priority: TestData.priorities[1],
+            completed: false,
+            category: TestData.categories[1],
             date: new Date('2023-09-30')
         },
         {
@@ -88,23 +104,7 @@ export class TestData {
             title: 'Полить цветы',
             priority: TestData.priorities[1],
             completed: false,
-            category: TestData.categories[0],
-            date: new Date('2023-09-30')
-        },
-        {
-          id: 1,
-            title: 'Полить цветы',
-            priority: TestData.priorities[1],
-            completed: false,
-            category: TestData.categories[0],
-            date: new Date('2023-09-30')
-        },
-        {
-          id: 1,
-            title: 'Полить цветы',
-            priority: TestData.priorities[1],
-            completed: false,
-            category: TestData.categories[0],
+            category: TestData.categories[1],
             date: new Date('2023-09-30')
         },
     ]
